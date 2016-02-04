@@ -28,6 +28,12 @@ gem 'rails_12factor'
 
 gem 'devise'
 
+gem 'bootstrap'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.1.0'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
