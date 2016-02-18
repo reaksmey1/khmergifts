@@ -1,0 +1,5 @@
+<%= form_for @gift, url: {action: "create"}, html: {multipart: true} do |f| %>
+  <%= f.text_field :name %>
+  <%= f.file_field :source_image %>
+  <%= f.submit "Create" %>
+<% end %>
